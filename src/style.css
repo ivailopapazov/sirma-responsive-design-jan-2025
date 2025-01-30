@@ -42,7 +42,7 @@ h1 {
 
 .header-section,
 .footer-section {
-    padding: 35px 100px 38px;
+    padding: 35px 0 38px;
     background-color: #74C69D;
     margin-bottom: 30px;
 }
@@ -97,4 +97,53 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
+    justify-items: center;
+}
+
+article img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .site-content {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .site-content {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-content {
+        width: 500px;
+    }
+
+    .portfolio-section {
+        grid-template-columns: 1fr;
+        row-gap: 55px;
+    } 
+
+    /* Switch navigation to burger menu */
+    .header-section-container nav {
+        display: none;
+    }
+
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .site-content {
+        width: 320px;
+    }
+
+    /* lower article container width */
+    article {
+        width: 335px;
+    }
 }
