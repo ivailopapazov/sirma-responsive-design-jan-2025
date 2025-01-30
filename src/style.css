@@ -6,11 +6,33 @@
     --secondary-color-100: var(--secondary-color);
     --secondary-color-75: #FFFFFFc0;
 
+    font-family: 'Work Sans', Arial, sans-serif;
     font-size: 16px;
+    line-height: 125%;
 }
 
 body {
     margin: 0;
+}
+
+h1 {
+    font-family: 'Crimson Text';
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 125%;
+    margin: 16px 0;
+}
+
+.label {
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    line-height: 125%;
 }
 
 .header-section {
@@ -19,12 +41,7 @@ body {
     color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
-}
-
-.sub-heading {
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 1.25rem;
-    line-height: 125%;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -44,4 +61,14 @@ body {
 .nav-container a {
     text-decoration: none;
     color: inherit;
+}
+
+.content-header-section {
+    display: flex;
+    justify-content: center;
+}
+
+.content-header-container {
+    text-align: center;
+    width: 410px;
 }
