@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #74C69D;
+    --secondary-color: #FFF;
+    --primary-color-100: var(--primary-color);
+    --primary-color-75: #74c69dc0;
+    --secondary-color-100: var(--secondary-color);
+    --secondary-color-75: #FFFFFFc0;
+
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+.header-section {
+    padding: 35px 0 38px;
+    background-color: #74C69D;
+    color: var(--secondary-color);
+}
+
+.sub-heading {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 125%;
+}
+
+.logo {
+    font-size: 40px;
+}
