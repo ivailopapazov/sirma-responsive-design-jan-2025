@@ -61,7 +61,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.header-section-container,
+.header-section-content,
 .footer-section-container {
     color: var(--secondary-color);
     display: flex;
@@ -72,11 +72,12 @@ h1 {
 .logo-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 190px;
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .nav-container {
@@ -141,15 +142,27 @@ article img {
         width: 500px;
     }
 
+    /* Switch navigation to burger menu */
+    .header-section-content nav {
+        display: none;
+    }
+
+    .logo-container {
+        width: 130px;
+    }
+
+    .logo-container svg {
+        width: 45px;
+    }
+    
+    .logo {
+        font-size: 1.9rem;
+    }
+
     .portfolio-section {
         grid-template-columns: 1fr;
         row-gap: 55px;
     } 
-
-    /* Switch navigation to burger menu */
-    .header-section-container nav {
-        display: none;
-    }
 
     .footer-section-container {
         flex-direction: column;
