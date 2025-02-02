@@ -98,9 +98,9 @@ h1 {
 .portfolio-section {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 570fr 555fr;
     margin-bottom: 100px;
-    justify-items: center;
+    gap: 55px;
 }
 
 article img {
