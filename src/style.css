@@ -167,10 +167,19 @@ article img {
         font-size: 1.9rem;
     }
 
+    .content-header-section {
+        margin-bottom: 45px;
+    }
+
     .portfolio-section {
         grid-template-columns: 1fr;
         row-gap: 55px;
+        margin-bottom: 30px;
     } 
+
+    .more-section {
+        margin-bottom: 30px;
+    }
 
     .footer-section-container {
         flex-direction: column;
