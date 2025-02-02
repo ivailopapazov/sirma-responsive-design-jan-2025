@@ -144,6 +144,10 @@ article img {
 
     /* lower article container width */
     article {
-        width: 335px;
+        width: 320px;
+    }
+
+    footer .sub-heading {
+        font-size: 1rem;
     }
 }
