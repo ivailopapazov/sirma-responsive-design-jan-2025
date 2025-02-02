@@ -1,10 +1,12 @@
 :root {
     --primary-color: #74C69D;
     --secondary-color: #FFF;
+    --dark-color: #212529;
     --primary-color-100: var(--primary-color);
     --primary-color-75: #74c69dc0;
     --secondary-color-100: var(--secondary-color);
     --secondary-color-75: #FFFFFFc0;
+    --dark-color-100: var(--dark-color);
 
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 16px;
@@ -38,6 +40,15 @@ h1 {
 .sub-heading {
     font-size: 1.25rem;
     line-height: 125%;
+}
+
+.secondary-button {
+    background-color: var(--dark-color);
+    padding: 13px 30px 10px;
+    color: var(--secondary-color);
+    font-family: inherit;
+    border-radius: 5px;
+    border: 0;
 }
 
 .header-section,
@@ -99,9 +110,16 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 570fr 555fr;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
     gap: 55px;
 }
+
+.more-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
 
 article img {
     width: 100%;
