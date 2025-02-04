@@ -1,3 +1,5 @@
+@import url(./site.css);
+
 /* Header & Footer */
 .header-section,
 .footer-section {
@@ -66,17 +68,58 @@
 }
 
 /* main */
-.content-header-section {
+.portfolio-header-section {
     display: flex;
     justify-content: center;
     margin-bottom: 82px;
 }
 
-.content-header-container {
+.section-header {
     text-align: center;
     width: 410px;
 }
 
+/* partner section */
+.partner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    margin-bottom: 75px;
+}
+
+.partner-container {
+    display: flex;
+    gap: 68px
+}
+
+/* info section */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+
+.info-section-content {
+    width: 470px;
+}
+
+.info-section-content p {
+    color: var(--dark-color-50);
+    margin-bottom: 16px;
+}
+
+.mission-info-section {
+    margin-bottom: 75px;
+}
+
+.solution-info-section {
+    flex-direction: row-reverse;
+    margin-bottom: 110px;
+}
+
+/* portfolio section */
 .portfolio-section {
     width: 100%;
     display: grid;
@@ -128,7 +171,7 @@
         font-size: 1.9rem;
     }
 
-    .content-header-section {
+    .portfolio-header-section {
         margin-bottom: 45px;
     }
 

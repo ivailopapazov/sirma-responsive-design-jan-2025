@@ -9,13 +9,17 @@
     
     --dark-color: #212529;
     --dark-color-100: var(--dark-color);
+    --dark-color-75: #212529c0;
+    --dark-color-50: #21252980;
+    --dark-color-25: #21252940;
 
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 125%;
 }
 
-body {
+/* resets */
+body, p {
     margin: 0;
 }
 
@@ -25,8 +29,10 @@ strong {
 
 ul {
     padding: 0;
+    list-style: none;
 }
 
+/* common styles */
 .site-content {
     width: 1180px;
     margin: auto;
