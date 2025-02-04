@@ -48,6 +48,10 @@
     color: inherit;
 }
 
+.welcome-section {
+    padding: 40px 0;
+}
+
 .welcome-container {
     width: 415px;
 }
@@ -58,6 +62,7 @@
 
 .welcome-container p {
     color: var(--white-color-75);
+    margin-bottom: 25px;
 }
 
 /* main */
