@@ -2,11 +2,14 @@
     --primary-color: #74C69D;
     --primary-color-100: var(--primary-color);
     --primary-color-75: #74c69dc0;
-    
-    --white-color: #FFF;
+
+    --white-color: rgba(255, 255, 255);
     --white-color-100: var(--white-color);
     --white-color-75: #FFFFFFc0;
-    
+    /* TODO fix this */
+    --white-color-50: rgba(255, 255, 255, 50%);
+
+
     --dark-color: #212529;
     --dark-color-100: var(--dark-color);
     --dark-color-75: #212529c0;
@@ -19,7 +22,8 @@
 }
 
 /* resets */
-body, p {
+body,
+p {
     margin: 0;
 }
 
@@ -44,6 +48,11 @@ h1 {
     font-weight: 700;
     line-height: 125%;
     margin: 16px 0;
+}
+
+h4 {
+    font-family: 'Crimson Text';
+    font-size: 1.5rem;
 }
 
 .label {
