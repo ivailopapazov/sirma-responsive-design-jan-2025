@@ -226,16 +226,15 @@
         padding-bottom: 15px;
     }
 
-    .nav-container li {
-    }
-
     .nav-container a {
         font-size: 2rem;
     }
 
-
-    .burger-menu {
-        display: inline;
+    .burger-menu-wrapper {
+        display: block;
+        background-image: url("/public/img/burger-menu.svg");
+        width: 35px;
+        height: 36px;
     }
 
     .logo-container {
