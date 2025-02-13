@@ -34,6 +34,9 @@
 
 .burger-menu {
     display: none;
+    background-image: url("/public/img/burger-menu.svg");
+    width: 35px;
+    height: 36px;
 }
 
 .nav-container {
@@ -209,9 +212,9 @@
     }
 
     /* Switch navigation to burger menu */
-    /* .nav-container { */
-        /* display: none; */
-    /* } */
+    .nav-container {
+        display: none;
+    }
 
     .nav-container ul {
         flex-direction: column;
@@ -230,11 +233,8 @@
         font-size: 2rem;
     }
 
-    .burger-menu-wrapper {
+    .burger-menu {
         display: block;
-        background-image: url("/public/img/burger-menu.svg");
-        width: 35px;
-        height: 36px;
     }
 
     .logo-container {
