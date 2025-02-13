@@ -34,9 +34,16 @@
 
 .burger-menu {
     display: none;
-    background-image: url("/public/img/burger-menu.svg");
     width: 35px;
     height: 36px;
+}
+
+.open-menu {
+    background-image: url("/public/img/burger-menu.svg");
+}
+
+.close-menu {
+    background-image: url("/public/img/close.svg");
 }
 
 .nav-container {

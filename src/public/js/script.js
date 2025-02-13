@@ -11,8 +11,12 @@ function onBurgerMenuClick() {
     // Show mobile navigation
     navContainerElement.style.display = 'block';
 
-    // Change burger menu icon
-    burgerMenuElement.style.backgroundImage = 'url("/public/img/close.svg")'
+    // Toggle burger menu icon
+    if (burgerMenuElement.classList.contains('open-menu')) {
+        burgerMenuElement.classList.replace('open-menu', 'close-menu');
+    } else {
+        burgerMenuElement.classList.replace('close-menu', 'open-menu');
+    }
 }
 
 initEventListeners();
