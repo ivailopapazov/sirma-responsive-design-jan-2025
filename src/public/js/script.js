@@ -11,7 +11,7 @@ function onMediaChange() {
     const burgerMenuElement = document.querySelector('.burger-menu');
     const navContainerElement = document.querySelector('.nav-container');
 
-    navContainerElement.style.display = '';
+    navContainerElement.classList.add('nav-hidden');
     burgerMenuElement.classList.replace('close-menu', 'open-menu');
 }
 
@@ -22,10 +22,10 @@ function onBurgerMenuClick() {
     // Toggle burger menu icon and navigation
     if (burgerMenuElement.classList.contains('open-menu')) {
         burgerMenuElement.classList.replace('open-menu', 'close-menu');
-        navContainerElement.style.display = 'block';
+        navContainerElement.classList.remove('nav-hidden');
     } else {
         burgerMenuElement.classList.replace('close-menu', 'open-menu');
-        navContainerElement.style.display = '';
+        navContainerElement.classList.add('nav-hidden');
     }
 }
 

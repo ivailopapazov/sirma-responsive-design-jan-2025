@@ -48,6 +48,13 @@
 
 .nav-container {
     width: 390px;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 .nav-container ul {
@@ -157,13 +164,13 @@
     height: 175px;
     overflow-y: hidden;
     border: 1px solid black;
-    border-radius: 50%; 
+    border-radius: 50%;
     text-align: center;
     margin: 0 13px;
 }
 
 .talents-image-wrapper img {
-    width: unset;    
+    width: unset;
     margin: 13px;
 }
 
@@ -192,7 +199,7 @@
     }
 
     .talents-list {
-        grid-template-columns: 1fr 1fr;  
+        grid-template-columns: 1fr 1fr;
         gap: 50px
     }
 }
@@ -208,10 +215,6 @@
         row-gap: 40px;
     }
 
-    .nav-container {
-        display: block;
-    }
-
     .info-section {
         gap: 55px
     }
@@ -223,8 +226,13 @@
     }
 
     /* Switch navigation to burger menu */
-    .nav-container {
+    /* .nav-container {
         display: none;
+    } */
+
+    .nav-hidden {
+        display: none;
+        opacity: 0;
     }
 
     .nav-container ul {
@@ -255,7 +263,7 @@
     .logo-container svg {
         width: 45px;
     }
-    
+
     .logo {
         font-size: 1.9rem;
     }
@@ -279,7 +287,7 @@
     }
 
     .talents-list {
-        grid-template-columns: 1fr;  
+        grid-template-columns: 1fr;
         gap: 35px;
     }
 
@@ -291,7 +299,7 @@
         grid-template-columns: 1fr;
         row-gap: 55px;
         margin-bottom: 30px;
-    } 
+    }
 
     .more-section {
         margin-bottom: 30px;
