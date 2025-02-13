@@ -8,14 +8,13 @@ function onBurgerMenuClick() {
     const navContainerElement = document.querySelector('.nav-container');
     const burgerMenuElement = document.querySelector('.burger-menu');
 
-    // Show mobile navigation
-    navContainerElement.style.display = 'block';
-
-    // Toggle burger menu icon
+    // Toggle burger menu icon and navigation
     if (burgerMenuElement.classList.contains('open-menu')) {
         burgerMenuElement.classList.replace('open-menu', 'close-menu');
+        navContainerElement.style.display = 'block';
     } else {
         burgerMenuElement.classList.replace('close-menu', 'open-menu');
+        navContainerElement.style.display = 'none';
     }
 }
 
